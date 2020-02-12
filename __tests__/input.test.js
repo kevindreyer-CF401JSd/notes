@@ -30,6 +30,6 @@ describe('Input module', () => {
         let options = new Input();
         // send input but send an object with no value
         options.command = {};
-        expect(options.valid()).toBeTruthy();
+        expect(options.valid()).toBeFalsy();
     });
 });

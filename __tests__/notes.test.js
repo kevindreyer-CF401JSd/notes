@@ -21,7 +21,7 @@ describe('Notes module', () => {
         const notes = new Notes({ command: { action: action, payload: payload } });
         // we could have written this as { command: {action, payload}}
         notes.execute();
-        expect((console.log).toHaveBeenCalledWith(`adding note: ${payload}`));
+        expect(console.log).toHaveBeenCalledWith(`adding note: ${payload}`);
     });
 
 });
