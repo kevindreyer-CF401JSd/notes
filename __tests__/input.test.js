@@ -1,3 +1,6 @@
+// Modified this code based on the lab01 mob programming
+// https://github.com/codefellows/seattle-javascript-401d34/tree/master/class-02/lab_01_mob_programming
+
 const Input = require('../lib/input.js');
 
 jest.mock('minimist');
@@ -25,6 +28,7 @@ describe('Input module', () => {
     });
     it('valid() rejects improperly formed input', () => {
         let options = new Input();
+        // send input but send an object with no value
         options.command = {};
         expect(options.valid()).toBeTruthy();
     });
