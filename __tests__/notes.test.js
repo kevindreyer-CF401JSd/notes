@@ -1,3 +1,6 @@
+// Modified this code based on the lab01 mob programming
+// https://github.com/codefellows/seattle-javascript-401d34/tree/master/class-02/lab_01_mob_programming
+
 const Notes = require('../lib/notes.js');
 
 jest.spyOn(global.console, 'log');
