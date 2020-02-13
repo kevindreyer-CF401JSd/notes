@@ -1,6 +1,13 @@
 # LAB - Class 03
 
 ## Notesy
+Lab: Class 03 
+- [x] Write to db 
+- [ ] Add category to note
+- [ ] list notes
+    - [ ] all notes
+    - [ ] notes by category
+- [ ] delete a single note 
 
 ### Author: Kevin Dreyer
 
