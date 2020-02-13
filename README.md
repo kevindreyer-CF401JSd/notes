@@ -28,7 +28,7 @@ Command Object created by Input Class
 }
 Notes created Notes Class
 { 
-    action: { type:string, required:true}
-    payload: { type:string, required:true}
+    action: { type:'string', required:true},
+    payload: { type:'string', required:true}
 }
 
