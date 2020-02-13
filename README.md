@@ -1,4 +1,4 @@
-# LAB - Class 02
+# LAB - Class 03
 
 ## Notesy
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/kevindreyer-CF401JSd/notes/pull/2)
+- [submission PR](https://github.com/kevindreyer-CF401JSd/notes/pull/3)
 
 ### Setup
 
