@@ -17,6 +17,18 @@
 #### Tests
 
 - How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+    `jest input.test.js`
+    `jest notes.test.js`
+
+#### Schema/Rules set
+
+Command Object created by Input Class
+{ 
+    command: { type:string, required:true}
+}
+Notes created Notes Class
+{ 
+    action: { type:string, required:true}
+    payload: { type:string, required:true}
+}
 
