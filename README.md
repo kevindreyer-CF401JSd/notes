@@ -3,11 +3,11 @@
 ## Notesy
 Lab: Class 03 
 - [x] Write to db 
-- [ ] Add category to note
-- [ ] list notes
-    - [ ] all notes
-    - [ ] notes by category
-- [ ] delete a single note 
+- [x] Add category to note
+- [x] list notes
+    - [x] all notes
+    - [x] notes by category
+- [x] delete a single note 
 
 ### Author: Kevin Dreyer
 
