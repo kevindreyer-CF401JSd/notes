@@ -1,23 +1,25 @@
+const mongoose = require('mongoose');
+const MONGOOSE_URI = 'mongodb://localhost:27017/notes';
+const connectionOptions = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+};
+mongoose.connect(MONGOOSE_URI, connectionOptions);
+
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
-const mongoose = require('mongoose');
-// const Notesy = require('./lib/notes-schema.js');
-
-// const MONGOOSE_URI = 'mongodb://localhost:27017/notes';
-// mongoose.connect(MONGOOSE_URI, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-// });
-
 
 const input = new Input();
 const notes = new Notes(input);
 
-// async function addToDB(data) {
-
-// }
-
-input.valid() ? notes.execute() : help();
+if(input.valid()) {
+    console.log(input);
+    notes.execute(input.command)
+        .then(mongoose.disconnect())
+        .catch(error => console.error);
+} else {
+    help();
+}
 
 function help() {
     console.log(`

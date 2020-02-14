@@ -19,7 +19,7 @@ Lab: Class 03
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- e.g. `node index.js`
 
 #### Tests
 
