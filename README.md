@@ -2,7 +2,7 @@
 
 ## Notesy
 Lab: Class 04
-- [ ] Create a notes “collection” which requires your notes mongo schema
+- [x] Create a notes “collection” which requires your notes mongo schema
 - [ ] implement CRUD operations
   - [ ] get()
   - [ ] create()
