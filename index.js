@@ -4,7 +4,10 @@ const connectionOptions = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 };
-mongoose.connect(MONGOOSE_URI, connectionOptions);
+// the .then here from a post online
+mongoose.connect(MONGOOSE_URI, connectionOptions)
+  .then(() => console.log("Mongodb connected"))
+  .catch(err => console.log(err));
 
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
@@ -13,10 +16,10 @@ const input = new Input();
 const notes = new Notes(input);
 
 if(input.valid()) {
-    console.log(input);
+    // console.log(input);
     notes.execute(input.command)
-        .then(mongoose.disconnect())
-        .catch(error => console.error);
+    .then(mongoose.disconnect)
+    .catch(error => console.error(error));
 } else {
     help();
 }
