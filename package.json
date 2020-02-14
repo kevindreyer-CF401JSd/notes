@@ -1,0 +1,30 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "App which will allow the user to specify a note (words) to be added to a database.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "jest": "^25.1.0",
+    "minimist": "^1.2.0",
+    "mongoose": "^5.8.12",
+    "superagent": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindreyer-CF401JSd/notes.git"
+  },
+  "author": "Kevin Dreyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindreyer-CF401JSd/notes/issues"
+  },
+  "homepage": "https://github.com/kevindreyer-CF401JSd/notes#readme"
+}
