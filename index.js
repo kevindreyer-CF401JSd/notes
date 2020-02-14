@@ -28,8 +28,10 @@ function help() {
     console.log(`
     api USAGE: api -a <text note>
 
-     -a 'String of text in quotes'
-     -c 'category name'
+     -a <note> 'String of text in quotes'
+     -c <category> 'category name to'
+     -l <optional category name> 'list all notes'
+     -d <id> 'delete a note by id'
 
     `);
     process.exit();
