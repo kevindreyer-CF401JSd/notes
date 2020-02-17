@@ -8,7 +8,7 @@ Lab: Class 04
   - [x] create()
   - [ ] update()
   - [x] delete()
-- [ ] Testing
+- [x] Testing
 - [ ] Use @code-fellows/supergoose
 
 ### Author: Kevin Dreyer

@@ -16,7 +16,7 @@ const input = new Input();
 const notes = new Notes(input);
 
 if(input.valid()) {
-    console.log('input',input);
+    // console.log('input',input);
     notes.execute(input.command)
     .then(mongoose.disconnect)
     .catch(error => console.error(error));
@@ -28,10 +28,11 @@ function help() {
     console.log(`
     api USAGE: api -a <text note>
 
-     -a <note> 'String of text in quotes'
-     -c <category> 'category name to'
+     -a <note> 'add String as note'
+     -c <category> 'category name, used with add to assign category'
      -l <optional category name> 'list all notes'
      -d <id> 'delete a note by id'
+     -u <note> -i <id> 'update note, find my id and update string'
 
     `);
     process.exit();
