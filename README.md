@@ -4,10 +4,10 @@
 Lab: Class 04
 - [x] Create a notes “collection” which requires your notes mongo schema
 - [ ] implement CRUD operations
-  - [ ] get()
-  - [ ] create()
+  - [x] get()
+  - [x] create()
   - [ ] update()
-  - [ ] delete()
+  - [x] delete()
 - [ ] Testing
 - [ ] Use @code-fellows/supergoose
 
