@@ -1,19 +1,21 @@
-# LAB - Class 03
+# LAB - Class 04
 
 ## Notesy
-Lab: Class 03 
-- [x] Write to db 
-- [x] Add category to note
-- [x] list notes
-    - [x] all notes
-    - [x] notes by category
-- [x] delete a single note 
+Lab: Class 04
+- [x] Create a notes “collection” which requires your notes mongo schema
+- [ ] implement CRUD operations
+  - [x] get()
+  - [x] create()
+  - [ ] update()
+  - [x] delete()
+- [x] Testing
+- [ ] Use @code-fellows/supergoose
 
 ### Author: Kevin Dreyer
 
 ### Links and Resources
 
-- [submission PR](https://github.com/kevindreyer-CF401JSd/notes/pull/3)
+- [submission PR](https://github.com/kevindreyer-CF401JSd/notes/pull/4)
 
 ### Setup
 
@@ -21,21 +23,16 @@ Lab: Class 03
 
 - e.g. `node index.js`
 
+ api USAGE: api -a <text note>
+
+     -a <note> 'String of text in quotes'
+     -c <category> 'category name to' optional
+     -l <optional category name> 'list all notes'
+     -d <id> 'delete a note by id'
+
 #### Tests
 
 - How do you run tests?
-    `jest input.test.js`
-    `jest notes.test.js`
+    `npm test __test__`
 
-#### Schema/Rules set
-
-Command Object created by Input Class
-{ 
-    command: { type:string, required:true}
-}
-Notes created Notes Class
-{ 
-    action: { type:'string', required:true},
-    payload: { type:'string', required:true}
-}
 
