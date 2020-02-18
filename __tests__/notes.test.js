@@ -15,13 +15,13 @@ describe('Notes module', () => {
         expect(console.log).not.toHaveBeenCalled;
     });
   
-    it('Notes.prototype.add() can add a note', () => {
-        const action = 'add';
-        const payload = 'this will succeed';
-        const notes = new Notes({ command: { action: action, payload: payload } });
-        // we could have written this as { command: {action, payload}}
-        notes.execute();
-        expect(console.log).toHaveBeenCalledWith(`adding note: ${payload}`);
-    });
+    // it('Notes.prototype.add() can add a note', () => {
+    //     const action = 'add';
+    //     const payload = 'this will succeed';
+    //     const notes = new Notes({ command: { action: action, payload: payload } });
+    //     // we could have written this as { command: {action, payload}}
+    //     notes.execute();
+    //     expect(console.log).toHaveBeenCalledWith(`adding note: ${payload}`);
+    // });
 
 });
