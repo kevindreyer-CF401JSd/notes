@@ -1,4 +1,4 @@
-#!/user/bin/env node
+#!/usr/bin/env node
 const mongoose = require('mongoose');
 const MONGOOSE_URI = 'mongodb://localhost:27017/notes';
 const connectionOptions = {

@@ -9,6 +9,8 @@ Lab: Class 04
   - [ ] update()
   - [x] delete()
 - [x] Testing
+- [x] Published to npm
+  - [npmjs package kdreyerinseattle/notes](https://www.npmjs.com/package/@kdreyerinseattle/notes)
 - [ ] Use @code-fellows/supergoose
 
 ### Author: Kevin Dreyer
@@ -16,6 +18,8 @@ Lab: Class 04
 ### Links and Resources
 
 - [submission PR](https://github.com/kevindreyer-CF401JSd/notes/pull/4)
+  - [sub-submission npm pub 1](https://github.com/kevindreyer-CF401JSd/notes/pull/5)
+  - [sub-submission npm pub 2](https://github.com/kevindreyer-CF401JSd/notes/pull/6)
 
 ### Setup
 
